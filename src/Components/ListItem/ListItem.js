@@ -4,24 +4,28 @@ export default class ListItem extends Component {
   getTrophies(i) {
     if (i == 1) {
       return (
-        <span>
+        <span style={{ marginRight: 15 }}>
           <img src="/gold.png" style={{ height: 70 }} />
         </span>
       );
     } else if (i == 2) {
       return (
-        <span>
+        <span style={{ marginRight: 15 }}>
           <img src="/silver.png" style={{ height: 70 }} />
         </span>
       );
     } else if (i == 3) {
       return (
-        <span>
+        <span style={{ marginRight: 15 }}>
           <img src="/bronze.png" style={{ height: 70 }} />
         </span>
       );
     } else {
-      return;
+      return (
+        <span style={{ marginRight: 10 }}>
+          <img src="/person-logo.png" style={{ height: 40 }} />
+        </span>
+      );
     }
   }
 
@@ -44,10 +48,10 @@ export default class ListItem extends Component {
             </div>
             <div className="col-md-2">
               <span
-                className="badge badge-secondary"
+                className="badge badge-success"
                 style={{ marginTop: 25, marginLeft: "80%", fontWeight: "bold" }}
               >
-                {value}
+                {Number(value).toFixed(2)}
               </span>
             </div>
           </div>

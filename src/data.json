@@ -1,7 +1,10 @@
 [
-  { "name": "one", "value": 12.75 },
-  { "name": "two", "value": 11.76 },
-  { "name": "three", "value": 11.76 },
-  { "name": "four", "value": 11.76 },
-  { "name": "five", "value": 12.76 }
+  { "name": "sdfs", "value": 17.8367346939 },
+  { "name": "rdf", "value": 17.8367346939 },
+  { "name": "ABC", "value": 17.8367346939 },
+  { "name": "DDD", "value": 17.8367346939 },
+  { "name": "ABC", "value": 17.8367346939 },
+  { "name": "DDD", "value": 17.8367346939 },
+  { "name": "ABC", "value": 17.8367346939 },
+  { "name": "DDD", "value": 17.8367346939 }
 ]

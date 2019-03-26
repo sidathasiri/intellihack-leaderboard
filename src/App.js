@@ -5,17 +5,6 @@ import data from "./data.json";
 import ListItem from "./Components/ListItem/ListItem";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      items: [
-        { name: "one", value: 12.75 },
-        { name: "two", value: 11.76 },
-        { name: "three", value: 11.76 },
-        { name: "four", value: 11.76 }
-      ]
-    };
-  }
   render() {
     return (
       <div>

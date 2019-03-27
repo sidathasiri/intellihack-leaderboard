@@ -15,4 +15,5 @@ for file in files:
    temp['value'] = error
    output.append(temp);
 data = pd.DataFrame(output)
+data = data.sort_values('value')
 data.to_json("./src/data.json", orient='records')
